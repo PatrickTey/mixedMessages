@@ -50,6 +50,6 @@ const bringMessage = () => {
         }
     }
 }
-
-console.log(bringMessage());
+const output = bringMessage();
+console.log(output);
 //additional features wouldnt be bad. But this for now
