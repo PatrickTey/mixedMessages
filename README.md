@@ -16,7 +16,7 @@
 - This is a CodeAcademy project. It shouldn't be able to solve any major problems for now. As stated earlier, it is intended to give a random message to a user. Nevertheless, it can cause damage to users who are already depressed. On the other hand, it may actually lighted them up and give them some hope. No user is expected to bang their hopes on the outcomes of this application.  
 
 ## Technologies Used
-  [JavaScript Version ES2015](https://developers.google.com/web/shows/ttt/series-2/es2015)
+  - Node [JavaScript Version ES2015](https://developers.google.com/web/shows/ttt/series-2/es2015)
 
 ## Features
 - Gives random messages to user
