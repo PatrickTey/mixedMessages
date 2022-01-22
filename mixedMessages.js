@@ -1,10 +1,12 @@
 //array of random options
-let isPositive1 = ['will', 'can'];
-let isRelative = ['family', 'friends', 'brother', 'spouse'];
-let isNegative = ['not'];
-let isNeutral = ['succeed', 'be strong', 'be positive', 'make it', 'be great'];
+const messages = {
+    isPositive1 =['will', 'can'],
+    isRelative =['family', 'friends', 'brother', 'spouse'],
+    isNegative =['not'],
+    isNeutral =['succeed', 'be strong', 'be positive', 'make it', 'be great']
+}
 
-//functions to randomly pick out strings to be out together
+//functions to randomly pick out strings to be put together
 function randPositive1() {
     let numPos1 = Math.floor(Math.random() * (isPositive1.length));
     return isPositive1[numPos1];
@@ -52,4 +54,4 @@ const bringMessage = () => {
 }
 const output = bringMessage();
 console.log(output);
-//additional features wouldnt be bad. But this for now
+//additional features wouldnt be bad. But this for now.
